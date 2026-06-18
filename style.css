@@ -289,21 +289,22 @@ border-radius:50%;
 }
 
 .titulo{
-
     margin-top:35px;
 
-    font-family:'Great Vibes',cursive;
+    font-family:'Great Vibes', cursive;
 
-    font-size:75px;
+    font-size: clamp(35px, 8vw, 75px);
 
     color:#d8b15a;
 
     text-shadow:
-    0 0 10px #d8b15a,
-    0 0 25px #d8b15a,
-    0 0 50px rgba(216,177,90,.6);
+        0 0 10px #d8b15a,
+        0 0 25px #d8b15a,
+        0 0 50px rgba(216,177,90,.6);
 
-    animation:glow 3s ease-in-out infinite;
+    animation: glow 3s ease-in-out infinite;
+
+    white-space: nowrap;
 }
 
 @keyframes glow{
