@@ -779,6 +779,10 @@ border:2px solid rgba(212,175,55,.4);
 
 }
 
+.texto-algerian {
+    font-family: 'Algerian', serif; /* Aplica la fuente y respalda con serif */
+    font-size: 32px;
+}
 
 
 .deck-photo{
