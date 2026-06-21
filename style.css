@@ -55,8 +55,11 @@ display:block;
 }
 
 #inicio h2{
-font-family:'Great Vibes',cursive;
-font-size:38px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-family:'Great Vibes',cursive;
+font-size:clamp(19px,4vw,32px);
 font-weight:400;
 letter-spacing:1px;
 color:#d4af37;
@@ -317,8 +320,11 @@ color:#d4af37;
 }
 
 .final-title{
+white-space:nowrap;
+overflow:hidden;
+text-overflow:ellipsis;
 font-family:'Great Vibes',cursive;
-font-size:55px;
+font-size:clamp(40px, 4vw, 32px);
 text-align:center;
 color:#d4af37;
 margin-bottom:20px;
